@@ -1,0 +1,14 @@
+.homeView {
+    max-width: 900px;
+    margin: 50px auto;
+}
+
+.homeView h2 {
+    font-size: 36px;
+    font-weight: 600;
+    color: thistle;
+}
+
+.homeView p {
+    color: skyblue;
+}
