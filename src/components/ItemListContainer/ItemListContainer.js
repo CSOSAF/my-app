@@ -80,7 +80,7 @@ const stock = [
 
 export const ItemListContainer = () => {
 
-    const pedirDatos Promise((resolve, reject) => {
+    const pedirDatos, Promise ((resolve, reject) => {
         setTimeout(() => {
             resolve("Promesa resuelta")
         }, 2000)
