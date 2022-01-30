@@ -4,10 +4,16 @@ import { useParams } from 'react-router'
 import { pedirDatos } from '../../helpers/pedirDatos'
 import { ItemList } from '../ItemList/ItemList'
 import { Loader } from '../Loader/Loader'
-import { collection, getDocs, query, where } from '@firebase/firestore/lite'
+//import { collection, getDocs, query, where } from '@firebase/firestore/lite'
 import { db } from '../../firebase/config'
 
 export const ItemListContainer = () => {
+
+    const pedirDatos = Promise ((resolve, reject) => {
+        setTimeout(() => {
+            resolve("Promesa resuelta")
+        }, 2000)
+    })
 
     const context = useContext(MiContext)
     console.log(context.logged)
@@ -78,14 +84,7 @@ const stock = [
     },
 ]
 
-export const ItemListContainer = () => {
 
-    const pedirDatos, Promise ((resolve, reject) => {
-        setTimeout(() => {
-            resolve("Promesa resuelta")
-        }, 2000)
-    })
-}
 
 useEffect(() => {
     

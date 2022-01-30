@@ -1,8 +1,6 @@
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
-import { getAnalytics } from "firebase/analytics";
 import { getFirestore } from 'firebase/firestore/lite'
-
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
@@ -11,12 +9,13 @@ const firebaseConfig = {
   projectId: "wine-not-fc5f0",
   storageBucket: "wine-not-fc5f0.appspot.com",
   messagingSenderId: "722993975001",
-  appId: "1:722993975001:web:7f07d57bdcfcf979e1f8c8",
-  measurementId: "${config.measurementId}"
+  appId: "1:722993975001:web:7f07d57bdcfcf979e1f8c8"
 };
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
-const analytics = getAnalytics(app);
 export const db = getFirestore(app)
+
+
+
 

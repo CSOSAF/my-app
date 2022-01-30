@@ -3,7 +3,7 @@ import { ItemDetail } from './ItemDetail'
 import { Item } from '../Item/Item';
 import { pedirDatos } from '../../helpers/pedirDatos';
 import { Loader } from '../Loader/Loader';
-import { collection, getDocs } from '@firebase/firestore/lite'
+//import { collection, getDocs } from '@firebase/firestore/lite'
 import { db } from '../../firebase/config'
 
 export const ItemDetailContainer = () => {
