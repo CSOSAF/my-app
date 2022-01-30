@@ -1,7 +1,9 @@
 import { useContext } from 'react'
-import { BsFillBagFill } from 'react-icons/bs'
+//import { BsFillBagFill } from 'react-icons/bs'
+import { FaCartPlus } from 'react-icons/fa'
 import { Link } from 'react-router-dom'
-import { CartContext } from 'src/components/context/CartContext'
+//import { CartContext } from 'src/components/context/CartContext'
+import { CartContext } from '../../Context/CartContext'
 import './CartWidget.scss'
 
 export const CartWidget = () => {

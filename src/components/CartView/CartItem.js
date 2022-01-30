@@ -1,6 +1,6 @@
 import React from 'react'
 import { BsFillTrashFill } from 'react-icons/bs'
-import { CartContext } from '../Context/CartContext'
+import { CartContext } from '../../Context/CartContext'
 
 export const CartItem = ({name, price, cantidad, id}) => {
     
