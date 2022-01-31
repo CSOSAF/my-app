@@ -15,7 +15,7 @@ export const CartView = () => {
                 <Link to="/" className="btn btn-primary">Volver</Link>
         </div>    
 
-                             }
+        )}
 
     return (
         <div className="container my-5">

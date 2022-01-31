@@ -6,8 +6,7 @@ import { Clicker } from './ejemplos/Clicker/Clicker' ;
 import { BrowserRouter } from 'react-router-dom';
 import { ItemDetailContainer } from './components/ItemDetailContainer/ItemDetailContainer';
 import { Login } from './components/Login/Login';
-import { CartProvider } from './components/Context/CartContext';
-import { DarkModeProvider } from './components/Context/DarkModeContext';
+import { CartProvider } from './Context/CartContext';
 
 
 function App() {
