@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { Container } from 'react-bootstrap'
 import { useParams } from 'react-router'
-import { pedirDatos } from '../../helpers/pedirDatos'
+import { pedirDatos } from '../helpers/pedirDatos'
 import { ItemList } from '../ItemList/ItemList'
 import { Loader } from '../Loader/Loader'
 //import { collection, getDocs, query, where } from '@firebase/firestore/lite'

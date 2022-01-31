@@ -1,7 +1,7 @@
 import React, { useContext, useState } from 'react'
 import { Navigate } from 'react-router'
 import { collection, Timestamp, writeBatch, query, where, documentId, getDocs } from 'firebase/firestore/lite'
-import { CartContext } from '../../components/Context/CartContext'
+import { CartContext } from '../../Context/CartContext'
 import { db } from '../../firebase/config'
 import { validarDatos } from '../../helpers/validarDatos'
 
